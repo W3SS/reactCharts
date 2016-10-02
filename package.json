@@ -31,5 +31,5 @@
     "react-router": "^0.13.3",
     "webpack": "^1.12.6",
     "webpack-dev-server": "^1.12.1"
-  } 
+  }
 }

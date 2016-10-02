@@ -2,8 +2,8 @@ import React from 'react';
 import Router from 'react-router';  
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
-import LoginHandler from './components/Login.js';
-import ChartHandler from './components/Chart.js';
+import LoginHandler from './Pages/Login.js';
+import ChartHandler from './Pages/Chart.js';
 
 
 let App = React.createClass({
