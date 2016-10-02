@@ -5,6 +5,7 @@ import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 import LoginHandler from './components/Login.js';
 import ChartHandler from './components/Chart.js';
 
+
 let App = React.createClass({
     render() {
         return (

@@ -4,8 +4,9 @@ let Chart = React.createClass({
 
     render() {
         return(
-            <div>
-                <img src="../../imgs/dongtu2.gif"/>
+            <div style={{width:"100%",textAlign:"center"}}>
+                <img src="../../imgs/dongtu2.gif"/><br/>
+                {/*<img width="400" height="225" src="../../imgs/huoche.gif"/>*/}
                 <span style={{display:"block"}}>This is chart in test!</span>
             </div>
         );
