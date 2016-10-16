@@ -1,0 +1,40 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lato', 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    border:1px solid #f00
+}
+.tag-label{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #C6C6D7;
+    width: 3em;
+    height: 2em;
+    line-height: 2em;
+    margin: 5px;
+    text-align: center;
+}
+.tag-nav{
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #508FD0;
+    width: 5em;
+    height: 2em;
+    line-height: 2em;
+    margin: 5px;
+    text-align: center;
+}
