@@ -28,7 +28,7 @@ body{
     text-align: center;
 }
 .tag-nav{
-    display: inline-block;
+    display: block;
     border-radius: 3px;
     font-size: 20px;
     background-color: #508FD0;
@@ -37,4 +37,18 @@ body{
     line-height: 2em;
     margin: 5px;
     text-align: center;
+}
+.right-box{
+    margin-left: 110px;
+    border: 1px solid #00A000 ;
+    min-height: 300px;
+}
+.nav{
+    position: absolute;
+
+}
+/*charts样式*/
+.charts{
+    width: 80%;
+    min-height: 400px;
 }

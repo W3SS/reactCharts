@@ -11,7 +11,7 @@ let Login = React.createClass({
     render() {
         
         return (
-            <div>
+            <div className="right-box">
                 welcome to login~
             </div>
         );

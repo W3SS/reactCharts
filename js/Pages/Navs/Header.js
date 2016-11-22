@@ -3,9 +3,9 @@ import React from 'react';
 let Header = React.createClass({
     render() {
         return(
-            <div>
+            <div className="right-box">
                this is header
-                <div>
+                <div >
                     <div className="tag-label">tag1</div>
                     <div className="tag-label">tag2</div>
                     <div className="tag-label">tag3</div>
