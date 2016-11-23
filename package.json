@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Yangzhedi/test.git"
+    "url": "git+https://github.com/Yangzhedi/react-echarts.git"
   },
   "keywords": [
     "yangzhedi1611"
@@ -18,9 +18,9 @@
   "author": "timi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Yangzhedi/test/issues"
+    "url": "https://github.com/Yangzhedi/react-echarts/issues"
   },
-  "homepage": "https://github.com/Yangzhedi/test#readme",
+  "homepage": "https://github.com/Yangzhedi/react-echarts#readme",
   "dependencies": {
     "antd": "^1.6.5",
     "babel": "^5.5.6",
@@ -46,7 +46,7 @@
     "promise-middleware": "^1.0.5",
     "react": "^0.14.8",
     "react-hot-loader": "^1.2.7",
-    "react-dom": "~0.14.3",
+    "react-dom": "^0.14.8",
     "react-immutable-render-mixin": "^0.8.1",
     "react-mixin": "^3.0.3",
     "react-tools": "~0.10.0",

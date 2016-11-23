@@ -21,7 +21,7 @@ let Chart = React.createClass({
                     <BarChart/>
                     <img style={{verticalAlign:"middle"}} src="../../imgs/threegirls.gif"/>
                 {/*<img width="400" height="225" src="../../imgs/huoche.gif"/>*/}
-                    
+                    {/* <Button></Button>*/}
                 </div>
             </div>
         );
