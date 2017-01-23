@@ -14,13 +14,23 @@ require('echarts/lib/component/tooltip');
 let BarChart = React.createClass({
 
     componentDidMount(){
-        this.getCharts()
+        /*if(this.props.id){
+            this.getCharts()
+        }else {
+            console.warn('请传ID');
+            throw new error("please define a ID first");
+        }*/
+        try{
+            this.getCharts()
+        }catch(e){
+            console.error('there is an error'+e.message);
+        }
     },
     getCharts(){
         // // $('#mychart').css("height",500);
         // document.getElementById("mychart").style.width="300px";
         // document.getElementById("mychart").style.height="300px";
-        var myChart = echarts.init(document.getElementById("mychart"));
+        var myChart = echarts.init(document.getElementById(this.props.id));
         var option = {
             color: ['#3398DB'],
             tooltip : {
@@ -64,7 +74,7 @@ let BarChart = React.createClass({
     },
     render(){
         return(
-            <div className="charts" id="mychart">123</div>
+            <div className="charts" id={this.props.id}>123</div>
         )
     }
 });

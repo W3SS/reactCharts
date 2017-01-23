@@ -13,6 +13,7 @@ let Login = React.createClass({
         return (
             <div className="right-box">
                 welcome to login~
+                this is the table cell ! ! !
             </div>
         );
     }

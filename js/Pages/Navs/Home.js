@@ -7,7 +7,7 @@ let Home = React.createClass({
     render() {
         return(
             <div className="right-box">
-                <img style={{verticalAlign:"middle"}} src="../../imgs/threegirls.gif"/>
+                <img style={{verticalAlign:"middle"}} src="../../imgs/huoche.gif"/>
             </div>
         );
     }

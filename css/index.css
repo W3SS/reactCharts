@@ -13,6 +13,13 @@ body{
     overflow-x: hidden;
     font-family: 'Lato', 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
+img{
+    vertical-align: middle;
+}
+.center{
+    display: block;
+    text-align: center;
+}
 .container{
     width: 80%;
     border:1px solid #f00
@@ -27,7 +34,7 @@ body{
     margin: 5px;
     text-align: center;
 }
-.tag-nav{
+.nav a{
     display: block;
     border-radius: 3px;
     font-size: 20px;
@@ -37,11 +44,13 @@ body{
     line-height: 2em;
     margin: 5px;
     text-align: center;
+    text-decoration: none;
 }
 .right-box{
     margin-left: 110px;
     border: 1px solid #00A000 ;
     min-height: 300px;
+    position: relative;
 }
 .nav{
     position: absolute;
@@ -49,6 +58,15 @@ body{
 }
 /*charts样式*/
 .charts{
+    height: 100%;
     width: 80%;
     min-height: 400px;
+}
+/*测试样式*/
+.right-box.heightZiShi{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 100px;
 }

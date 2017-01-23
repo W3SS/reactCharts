@@ -15,14 +15,9 @@ let Chart = React.createClass({
     render() {
         return(
             <div className="right-box">
-                <div className="imgBox container"
-                     style={{display:"inline-block",height:"100%",lineHeight:"300px",textAlign:"center"}}>
-                    <span className="vertical-align-span"> </span>
-                    <BarChart/>
-                    <img style={{verticalAlign:"middle"}} src="../../imgs/threegirls.gif"/>
-                {/*<img width="400" height="225" src="../../imgs/huoche.gif"/>*/}
-                    {/* <Button></Button>*/}
-                </div>
+                <BarChart id={"chart1"}/>
+                <BarChart id={"chart2"}/>
+                <BarChart/>
             </div>
         );
     }
