@@ -20,7 +20,6 @@ let App = React.createClass({
                 {/* this is the importTant part*/}
                 </div>
                 <RouteHandler/>
-                
             </div>
         );
     }

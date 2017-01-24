@@ -12,9 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/Yangzhedi/react-echarts.git"
   },
-  "keywords": [
-    "yangzhedi1611"
-  ],
   "author": "timi",
   "license": "ISC",
   "bugs": {

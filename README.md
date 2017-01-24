@@ -2,6 +2,8 @@
 
 a front-end page repo using react & echarts
 
-`npm start`
+react-router : 0.13.3
 
-localhost:8080/webpack-dev-server/#/
+`npm start` in command
+
+then localhost:8080/webpack-dev-server/#/
